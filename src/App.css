@@ -1,0 +1,33 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-color: #c0dddd;
+}
+.file-upload-content {
+  height: fit-content;
+  background: #ffff;
+  border-radius: 10px;
+  padding: 20px 10px;
+
+  width: 50%;
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto !important;
+}
+
+.btn {
+  background-color: #187777;
+  color: #ffff;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 36px;
+  cursor: pointer;
+  margin-top: 16px;
+}

@@ -1,0 +1,64 @@
+.el-name {
+  width: 500px;
+}
+.file-upload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 16px !important;
+  .custom-upload {
+    .ant-upload {
+      width: 100%;
+    }
+    &__container {
+      border-radius: 8px;
+
+      width: 500px;
+      &--inner {
+        width: 100%;
+        background-color: #088586;
+        padding: 14px 16px;
+        font-size: 18px;
+        line-height: 22px;
+        color: white;
+        text-align: center;
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+.ant-upload-list {
+  width: 500px;
+  margin-bottom: 28px;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.item-name {
+  border-radius: 4px;
+  border: 1px solid #088586;
+  background: #fff;
+  max-width: 500px;
+  width: 100%;
+  padding: 8px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.item-delete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+  background-color: #e6e6e6;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
